@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon" href="access/images/nguoiemcodo.jpg" sizes="30X30"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường</title>
+    <link rel="stylesheet" href="access/style.css" />
+    <link rel="stylesheet" href="access/font/themify-icons/themify-icons.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="nowplaying">Nani buồn ngủ quá!</p>
+        <p class="namesong">anh da quen voi codon</p>
+      </div>
+      <div class="cdthumb">
+        <img src="access/images/ilikered.jpg" alt="" />
+      </div>
+      <div class="controler">
+        <div class="btn btn-reload">
+          <i class="ti-loop"></i>
+        </div>
+        <div class="btn btn-next-back">
+          <i class="ti-control-skip-backward"></i>
+        </div>
+        <div class="btn btn-play-stop">
+          <i class="ti-control-play"></i>
+        </div>
+        <div class="btn btn-next-to">
+          <i class="ti-control-skip-forward"></i>
+        </div>
+        <div class="btn btn-random">
+          <i class="ti-control-shuffle"></i>
+        </div>
+      </div>
+      <div class="control_audio">
+        <input
+          class="control_time_music"
+          type="range"
+          value="0"
+          step="0"
+          min="0"
+          max="100"
+        />
+      </div>
+      <div class="all_time">
+        <p class="time_start">00:00</p>
+        <p class="time_end">3:50</p>
+      </div>
+      <div class="volume">
+        <div class="volume_icon">
+          <i class="ti-volume"></i>
+        </div>
+        <input
+          class="control_volume"
+          type="range"
+          value="0"
+          step="1"
+          min="0"
+          max="100"
+        />
+      </div>
+    </div>
+    <div class="zero_column"></div>
+    <div class="buttom_list">
+      <!-- <div class="list_song">
+        <div class="avata">
+          <img src="access/images/ilikered.jpg" alt="" />
+        </div>
+        <div class="content_song">
+          <p class="list_namesong">wating for you</p>
+          <p class="list_namesinger">Mono</p>
+        </div>
+        <div class="three_dots">
+          <i class="ti-more-alt"></i>
+        </div> -->
+      </div>
+    </div>
+    <audio id="audio"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
