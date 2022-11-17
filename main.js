@@ -12,9 +12,15 @@ const fakeApi = [
     image: "access/images/ghequa.jpg",
   },
   {
+    namesong: "Hai mươi hai",
+    namesinger: "AMEE x Hứa Kim Tuyền",
+    path: "access/mp3/haimuoihai.mp3",
+    image: "access/images/haimuoihai.jpg",
+  },
+  {
     namesong: "Cứ chill thôi",
     namesinger: "Suni Hạ Linh & Rhymastic",
-    path: "access/mp3/cuchillthoi.mp3",a
+    path: "access/mp3/cuchillthoi.mp3",
     image: "access/images/cuchillthoi.jpg",
   },
   {
