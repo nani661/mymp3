@@ -1,5 +1,29 @@
 const fakeApi = [
   {
+    namesong: "Mặt mộc",
+    namesinger: "Phạm Nguyên Ngọc x VAnh x Ân Nhi",
+    path: "access/mp3/matmoc.mp3",
+    image: "access/images/matmoc.jpg",
+  },
+  {
+    namesong: "Infinity",
+    namesinger: "Jaymes Young",
+    path: "access/mp3/infinity.mp3",
+    image: "access/images/infinity.png",
+  },
+  {
+    namesong: "Reality",
+    namesinger: "Lost Frequencies",
+    path: "access/mp3/reality.mp3",
+    image: "access/images/reality.jpg",
+  },
+  {
+    namesong: "Umbrella",
+    namesinger: "Ember Island",
+    path: "access/mp3/umbrella.mp3",
+    image: "access/images/umbrella.jpg",
+  },
+  {
     namesong: "2 3 Con Mực",
     namesinger: "ft. MINH VŨ",
     path: "access/mp3/23conmuc.mp3",
