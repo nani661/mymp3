@@ -1,5 +1,11 @@
 const fakeApi = [
   {
+    namesong: "2 3 Con Mực",
+    namesinger: "ft. MINH VŨ",
+    path: "access/mp3/23conmuc.mp3",
+    image: "access/images/23conmuc.jpg",
+  },
+  {
     namesong: "2am",
     namesinger: "JustaTee",
     path: "access/mp3/2am.mp3",
