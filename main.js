@@ -6,9 +6,15 @@ const fakeApi = [
     image: "access/images/2am.jpg",
   },
   {
+    namesong: "Ghé qua",
+    namesinger: "Dick x Tofu x PC",
+    path: "access/mp3/ghequa.mp3",
+    image: "access/images/ghequa.jpg",
+  },
+  {
     namesong: "Cứ chill thôi",
     namesinger: "Suni Hạ Linh & Rhymastic",
-    path: "access/mp3/cuchillthoi.mp3",
+    path: "access/mp3/cuchillthoi.mp3",a
     image: "access/images/cuchillthoi.jpg",
   },
   {
