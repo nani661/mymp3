@@ -1,5 +1,89 @@
 const fakeApi = [
   {
+    namesong: "Anh Thề Đấy",
+    namesinger: "Thanh Hưng",
+    path: "access/mp3/anhtheday.mp3",
+    image: "access/images/anhtheday.jpg",
+  },
+  {
+    namesong: "Có Đâu Ai Ngờ",
+    namesinger: "Cầm",
+    path: "access/mp3/codauaingo.mp3",
+    image: "access/images/codauaingo.jpg",
+  },
+  {
+    namesong: "Không Phai",
+    namesinger: "Tăng Duy Tân x T.R.I x Phong Max ( Masew Remix )",
+    path: "access/mp3/khongphai.mp3",
+    image: "access/images/khongphai.jpg",
+  },
+  {
+    namesong: "Anh Sẽ Đón Em",
+    namesinger: "Nguyên ft. Trang",
+    path: "access/mp3/anhsedonem.mp3",
+    image: "access/images/anhsedonem.jpg",
+  },
+  {
+    namesong: "hẹn Em Kiếp Sau",
+    namesinger: "Lã. x Duy Phúc x TiB",
+    path: "access/mp3/henemkiepsau.mp3",
+    image: "access/images/henemkiepsau.jpg",
+  },
+  {
+    namesong: "Liệu Giờ",
+    namesinger: "LIỆU GIỜ ( WHAT IF ? ) x Venn ( Prod. KayT ) ",
+    path: "access/mp3/lieugio.mp3",
+    image: "access/images/lieugio.jpg",
+  },
+  {
+    namesong: "Xứng Đôi Cưới Thôi",
+    namesinger: "Lê Thiện Hiếu",
+    path: "access/mp3/xungdoicuoithoi.mp3",
+    image: "access/images/xungdoicuoithoi.jpg",
+  },
+  {
+    namesong: "Độ Tộc 2",
+    namesinger: "MASEW x PHÚC DU x PHÁO x ĐỘ MIXI",
+    path: "access/mp3/dotoc2.mp3",
+    image: "access/images/dotoc2.jpg",
+  },
+  {
+    namesong: "Lạc Vào Trong Mơ",
+    namesinger: "Simon C ft. Wuy",
+    path: "access/mp3/lacvaotrongmo.mp3",
+    image: "access/images/lacvaotrongmo.jpg",
+  },
+  {
+    namesong: "Em Là Hoàng Hôn",
+    namesinger: "Vang Golden G",
+    path: "access/mp3/vanggolden.mp3",
+    image: "access/images/vanggolden.jpg",
+  },
+  {
+    namesong: "Sang Xịn Mịn",
+    namesinger: "Gill ft. kewtiie",
+    path: "access/mp3/sangxinmin.mp3",
+    image: "access/images/sangxinmin.jpg",
+  },
+  {
+    namesong: "Dù Cho Mai Về Sau",
+    namesinger: "buitruonglinh x Freak D",
+    path: "access/mp3/duchomaivesau.mp3",
+    image: "access/images/duchomaivesau.jpg",
+  },
+  {
+    namesong: "Một Nhà",
+    namesinger: "tas release",
+    path: "access/mp3/motnha.mp3",
+    image: "access/images/motnha.jpg",
+  },
+  {
+    namesong: "Tuyệt Sắc",
+    namesinger: "Namduc",
+    path: "access/mp3/tuyetsac.mp3",
+    image: "access/images/tuyetsac.jpg",
+  },
+  {
     namesong: "Mặt mộc",
     namesinger: "Phạm Nguyên Ngọc x VAnh x Ân Nhi",
     path: "access/mp3/matmoc.mp3",
@@ -373,4 +457,16 @@ playList.onclick = function (e) {
     audio.play();
     bucroinha();
   }
+};
+const feature = $(".feature");
+const linkfacebook = $(".linkfacebook");
+const btnclose = $(".closelink");
+
+feature.onclick = function () {
+  linkfacebook.classList.add("flex");
+  linkfacebook.style.animation = "xuathien 0.4s ease";
+};
+btnclose.onclick = function () {
+  event.stopPropagation();
+  linkfacebook.classList.remove("flex");
 };
