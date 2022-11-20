@@ -1,5 +1,11 @@
 const fakeApi = [
   {
+    namesong: "One Day",
+    namesinger: "Matisyahu (Lyrics)",
+    path: "access/mp3/oneday.mp3",
+    image: "access/images/oneday.jpg",
+  },
+  {
     namesong: "Anh Thề Đấy",
     namesinger: "Thanh Hưng",
     path: "access/mp3/anhtheday.mp3",
